@@ -3,7 +3,7 @@ export default {
     'ress',
     'noto-sans-jp/noto_sans_jp_regular/css.css',
     '@fortawesome/fontawesome-svg-core/styles.css',
-    '@/assets/template.scss'
+    '@/assets/scss/template.scss'
   ],
   plugins: [
     '@/plugins/fontawesome'
