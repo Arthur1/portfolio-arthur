@@ -2,7 +2,11 @@ export default {
   css: [
     'ress',
     'noto-sans-jp/noto_sans_jp_regular/css.css',
+    '@fortawesome/fontawesome-svg-core/styles.css',
     '@/assets/template.scss'
+  ],
+  plugins: [
+    '@/plugins/fontawesome'
   ],
   head: {
     htmlAttrs: { lang: 'ja' },
