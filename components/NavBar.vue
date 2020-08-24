@@ -1,15 +1,18 @@
 <template>
   <div>
+    <div class="logoBox">
+      <img src="@/assets/img/logo.svg" class="logo">
+    </div>
     <div class="siteTitle">
       Arthur's Portfolio
     </div>
     <nav>
       <ul class="linkList">
-        <li class="linkList_element"><router-link to="/">Index</router-link></li>
-        <li class="linkList_element"><router-link to="/biography">Biography</router-link></li>
-        <li class="linkList_element"><router-link to="/works">Works</router-link></li>
-        <li class="linkList_element"><router-link to="/research">Research</router-link></li>
-        <li class="linkList_element"><router-link to="/favorites">Favorites</router-link></li>
+        <li class="linkList_element"><nuxt-link to="/">Index</nuxt-link></li>
+        <li class="linkList_element"><nuxt-link to="/biography">Biography</nuxt-link></li>
+        <li class="linkList_element"><nuxt-link to="/works">Works</nuxt-link></li>
+        <li class="linkList_element"><nuxt-link to="/research">Research</nuxt-link></li>
+        <li class="linkList_element"><nuxt-link to="/favorites">Favorites</nuxt-link></li>
       </ul>
       <ul class="snsList">
         <li class="snsList_element">
@@ -44,13 +47,17 @@ export default {
 .siteTitle {
   text-align: center;
   font-size: 1.2rem;
-  margin: 160px 0 30px;
+  margin: 30px 0 60px;
 }
 
-nav {
-  @include mq(lg) {
-    position: relative;
-  }
+.logoBox {
+  width: 70%;
+  margin: 60px auto 30px;
+}
+.logo {
+  display: block;
+  width: 100%;
+  max-height: 100px;
 }
 
 .linkList {

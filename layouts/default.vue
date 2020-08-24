@@ -49,7 +49,7 @@ $nav-box-width-pc: 330px;
 }
 
 .navBox {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: none;
   overflow: hidden;
@@ -59,6 +59,7 @@ $nav-box-width-pc: 330px;
   @include mq(lg) {
     display: block;
     width: $nav-box-width-pc;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .8);
   }
   &.navBox-isOpen {
     display: block;
@@ -89,10 +90,10 @@ $nav-box-width-pc: 330px;
 
 .mainBox {
   margin-left: 0;
-  width: 100vw;
+  width: 100%;
   @include mq(lg) {
     margin-left: $nav-box-width-pc;
-    width: calc(100vw - $nav-box-width-pc);
+    width: calc(100% - $nav-box-width-pc);
   }
 }
 </style>
