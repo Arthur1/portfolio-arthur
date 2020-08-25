@@ -10,14 +10,15 @@ export default {
   props: ['name', 'level'],
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
+@import '@/assets/scss/variables.scss';
 .icon {
   margin-right: 0.5em;
 }
 .icon-good {
-  color: #a6e22a;
+  color: $green;
 }
 .icon-soso {
-  color: #66d9ef;
+  color: $blue;
 }
 </style>

@@ -40,7 +40,7 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-@import '@/assets/scss/mq.scss';
+@import '@/assets/scss/variables.scss';
 
 $nav-box-width-pc: 330px;
 .baseWrapper {
@@ -54,8 +54,7 @@ $nav-box-width-pc: 330px;
   display: none;
   overflow: hidden;
   position: fixed;
-  // background: #313131;
-  background: #272822;
+  background: $gray;
   color: white;
   @include mq(lg) {
     display: block;
@@ -92,6 +91,8 @@ $nav-box-width-pc: 330px;
 .mainBox {
   margin-left: 0;
   width: 100%;
+  min-height: 100vh;
+  background: $off-white;
   @include mq(lg) {
     margin-left: $nav-box-width-pc;
     width: calc(100% - $nav-box-width-pc);

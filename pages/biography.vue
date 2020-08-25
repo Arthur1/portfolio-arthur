@@ -4,6 +4,7 @@
       <h1 class="headline">Biography</h1>
     </div>
     <div class="container">
+      <h1>ASAKURA Kazuki a.k.a. Arthur</h1>
       <h2 class="headline2">略歴</h2>
       <dl class="historyList">
         <dt>2015.03</dt>
@@ -45,7 +46,7 @@ export default {
 </script>
 <style scoped lang="scss">
 .headlineBox {
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC'), url('~assets/img/bg_biography.jpg');
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC'), url('~assets/img/headline_bg/biography.jpg');
 }
 
 .historyList {

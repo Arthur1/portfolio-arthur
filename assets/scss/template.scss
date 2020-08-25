@@ -1,4 +1,4 @@
-@import '@/assets/scss/mq.scss';
+@import '@/assets/scss/variables.scss';
 
 body {
   font-family: 'Noto Sans JP';
@@ -47,8 +47,8 @@ ul:not([class]), ol:not([class]) {
 
 .headline2 {
   margin: 1rem 0;
-  color: #272822;
+  color: $gray;
   &::first-letter {
-    color: #f92672;
+    color: $red;
   }
 }

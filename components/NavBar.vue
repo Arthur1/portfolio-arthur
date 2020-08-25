@@ -44,7 +44,7 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-@import '@/assets/scss/mq.scss';
+@import '@/assets/scss/variables.scss';
 
 .siteTitle {
   text-align: center;
