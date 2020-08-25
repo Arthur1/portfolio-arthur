@@ -43,6 +43,7 @@
       <ul>
         <li>PHP</li>
         <li>Scala</li>
+        <li>ES2015</li>
       </ul>
     </div>
   </div>
@@ -58,6 +59,6 @@ export default {
 </script>
 <style scoped lang="scss">
 .headlineBox {
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHUlEQVQYV2NkYGD4zwABjDACQwCqAKISrAwKwAIAisMEA5Sp5Q4AAAAASUVORK5CYII='), url('~assets/img/bg_favorites.jpg');
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC'), url('~assets/img/bg_favorites.jpg');
 }
 </style>

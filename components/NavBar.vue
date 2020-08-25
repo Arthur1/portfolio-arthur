@@ -1,16 +1,18 @@
 <template>
   <div>
     <div class="logoBox">
-      <img src="@/assets/img/logo.svg" class="logo">
+      <nuxt-link to="/">
+        <img src="@/assets/img/logo.svg" class="logo">
+      </nuxt-link>
     </div>
     <div class="siteTitle">
       Arthur's Portfolio
     </div>
     <nav>
       <ul class="linkList">
-        <li class="linkList_element"><nuxt-link to="/">Index</nuxt-link></li>
         <li class="linkList_element"><nuxt-link to="/biography">Biography</nuxt-link></li>
         <li class="linkList_element"><nuxt-link to="/works">Works</nuxt-link></li>
+        <li class="linkList_element"><nuxt-link to="/skills">Skills</nuxt-link></li>
         <li class="linkList_element"><nuxt-link to="/research">Research</nuxt-link></li>
         <li class="linkList_element"><nuxt-link to="/favorites">Favorites</nuxt-link></li>
       </ul>

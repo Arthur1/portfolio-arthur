@@ -26,7 +26,7 @@ p:not([class]) {
   margin: 0.5rem 0;
 }
 
-ul:not([class]) {
+ul:not([class]), ol:not([class]) {
   padding-left: 2rem;
 }
 
@@ -42,6 +42,7 @@ ul:not([class]) {
   padding: 4rem 0;
   text-align: center;
   letter-spacing: 0.2rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 .headline2 {

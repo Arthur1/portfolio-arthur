@@ -54,7 +54,8 @@ $nav-box-width-pc: 330px;
   display: none;
   overflow: hidden;
   position: fixed;
-  background: #313131;
+  // background: #313131;
+  background: #272822;
   color: white;
   @include mq(lg) {
     display: block;
