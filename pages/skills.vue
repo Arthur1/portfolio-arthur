@@ -4,6 +4,10 @@
       <h1 class="headline">Skills</h1>
     </div>
     <div class="container">
+      <p>
+        <font-awesome-icon class="icon icon-good" :icon="['fas', 'smile']" />: Familier<br>
+        <font-awesome-icon class="icon icon-soso" :icon="['fas', 'meh']" />: Beginner
+      </p>
       <h2 class="headline2">Programming Languages</h2>
       <ul class="skillList">
         <skill-element name="C" level="good" />
@@ -15,6 +19,7 @@
         <skill-element name="Perl5" level="soso" />
         <skill-element name="Python3" level="soso" />
         <skill-element name="MATLAB" level="soso" />
+        <skill-element name="Google Apps Script" level="soso" />
       </ul>
       <h2 class="headline2">Frameworks</h2>
       <ul class="skillList">
@@ -43,7 +48,11 @@
         <skill-element name="Docker" level="soso" />
         <skill-element name="Vagrant" level="soso" />
       </ul>
-      <h2 class="headline2">OS</h2>
+      <h2 class="headline2">Continuous Integrations</h2>
+      <ul class="skillList">
+        <skill-element name="CircleCI" level="soso" />
+      </ul>
+      <h2 class="headline2">Operating Systems</h2>
       <ul class="skillList">
         <skill-element name="Windows" level="good" />
         <skill-element name="macOS" level="good" />
@@ -71,6 +80,7 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+@import '@/assets/scss/variables.scss';
 .headlineBox {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC'), url('~assets/img/headline_bg/skills.jpg');
 }
@@ -78,5 +88,15 @@ export default {
 .skillList {
   padding-left: 1em;
   list-style-type: none;
+}
+
+.icon {
+  margin-right: 0.5em;
+}
+.icon-good {
+  color: $green;
+}
+.icon-soso {
+  color: $blue;
 }
 </style>
