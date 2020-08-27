@@ -60,6 +60,7 @@ export default {
 .work_links {
   display: flex;
   flex-wrap: wrap;
+  margin: 1rem 0;
 }
 .work_links > dt {
   width: 1.5rem;
