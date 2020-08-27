@@ -4,7 +4,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "generate": "nuxt generate",
-    "start": "nuxt start"
+    "start": "nuxt start",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -22,6 +23,7 @@
     "@aceforth/nuxt-optimized-images": "^1.2.0",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.0",
-    "imagemin-svgo": "^8.0.0"
+    "imagemin-svgo": "^8.0.0",
+    "push-dir": "^0.4.1"
   }
 }
