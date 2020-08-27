@@ -2,7 +2,7 @@
   <div>
     <div class="logoBox">
       <nuxt-link to="/">
-        <img src="@/assets/img/logo.svg" class="logo">
+        <img src="@/assets/img/logo.svg" class="logo" alt="Logo of Arthur's Portfolio">
       </nuxt-link>
     </div>
     <div class="siteTitle">

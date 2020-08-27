@@ -6,7 +6,7 @@
     <main class="mainBox">
       <nuxt />
     </main>
-    <div class="toggleButtonBox" :class="{ 'toggleButtonBox-isOpen': spMenuIsOpen }">
+    <div class="toggleButtonBox" :class="{ 'toggleButtonBox-isOpen': spMenuIsOpen, 'openButtonBox-black': openButtonIsBlack }">
       <font-awesome-icon v-if="spMenuIsOpen" :icon="['fas', 'times']" @click="closeSpMenu" />
       <font-awesome-icon v-else :icon="['fas', 'bars']" @click="openSpMenu" />
     </div>
@@ -21,8 +21,15 @@ export default {
   },
   data() {
     return {
-      spMenuIsOpen: false
+      spMenuIsOpen: false,
+      openButtonIsBlack: false
     }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.updateOpenButtonIsBlack)
+  },
+  destroyed() {
+    window.removeEventListener('scroll', this.updateOpenButtonIsBlack)
   },
   methods: {
     openSpMenu() {
@@ -30,6 +37,9 @@ export default {
     },
     closeSpMenu() {
       this.spMenuIsOpen = false
+    },
+    updateOpenButtonIsBlack() {
+      this.openButtonIsBlack = window.scrollY > 175
     }
   },
   watch: {
@@ -74,18 +84,17 @@ $nav-box-width-pc: 330px;
   }
   right: 20px;
   top: 20px;
-  color: #313131;
+  color: white;
   width: 50px;
   height: 50px;
   text-align: right;
-  &.toggleButtonBox-isOpen {
-    color: white;
-  }
   > svg {
     font-size: 2rem;
     cursor: pointer;
   }
-  
+  &:not(.toggleButtonBox-isOpen).openButtonBox-black {
+    color: #313131;
+  }
 }
 
 .mainBox {
