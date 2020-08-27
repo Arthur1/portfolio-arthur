@@ -8,6 +8,12 @@ export default {
   plugins: [
     '@/plugins/fontawesome'
   ],
+  buildModules: [
+    '@aceforth/nuxt-optimized-images',
+  ],
+  optimizedImages: {
+    optimizeImages: true
+  },
   head: {
     htmlAttrs: { lang: 'ja' },
     titleTemplate: '%s | Arthur\'s Portfolio',
