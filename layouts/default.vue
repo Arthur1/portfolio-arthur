@@ -52,7 +52,6 @@ export default {
 <style scoped lang="scss">
 @import '@/assets/scss/variables.scss';
 
-$nav-box-width-pc: 330px;
 .baseWrapper {
   display: flex;
   position: relative;
@@ -68,7 +67,7 @@ $nav-box-width-pc: 330px;
   color: white;
   @include mq(lg) {
     display: block;
-    width: $nav-box-width-pc;
+    width: 330px;
     box-shadow: 0 0 7px 0 rgba(0, 0, 0, .8);
   }
   &.navBox-isOpen {
@@ -103,8 +102,8 @@ $nav-box-width-pc: 330px;
   min-height: 100vh;
   background: $off-white;
   @include mq(lg) {
-    margin-left: $nav-box-width-pc;
-    width: calc(100% - $nav-box-width-pc);
+    margin-left: 330px;
+    width: calc(100% - 330px);
   }
 }
 </style>
