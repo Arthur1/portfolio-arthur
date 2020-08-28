@@ -15,6 +15,7 @@
         <li class="linkList_element"><nuxt-link to="/skills">Skills</nuxt-link></li>
         <li class="linkList_element"><nuxt-link to="/research">Research</nuxt-link></li>
         <li class="linkList_element"><nuxt-link to="/favorites">Favorites</nuxt-link></li>
+        <li class="linkList_element"><a href="https://arthur.hateblo.jp/" target="_blank" rel="noopener">Blog</a></li>
       </ul>
       <ul class="snsList">
         <li class="snsList_element">

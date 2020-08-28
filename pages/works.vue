@@ -32,7 +32,7 @@ export default {
             width: 1280,
             height: 681
           },
-          devs: ['php', 'fuelphp', 'js']
+          devs: ['php', 'fuelphp', 'js', 'mysql']
         },
         {
           id: 2,
@@ -46,7 +46,7 @@ export default {
             width: 1280,
             height: 678
           },
-          devs: ['php', 'fuelphp', 'js']
+          devs: ['php', 'fuelphp', 'js', 'mysql']
         },
         {
           id: 3,
@@ -60,7 +60,7 @@ export default {
             width: 1280,
             height: 702
           },
-          devs: ['php', 'fuelphp']
+          devs: ['php', 'fuelphp', 'mysql']
         },
         {
           id: 4,
@@ -102,7 +102,7 @@ export default {
             width: 1280,
             height: 699
           },
-          devs: ['php', 'fuelphp', 'js']
+          devs: ['php', 'fuelphp', 'js', 'mysql', 'docker']
         },
         {
           id: 7,
@@ -130,7 +130,7 @@ export default {
             width: 1280,
             height: 737
           },
-          devs: ['php', 'wordpress']
+          devs: ['php', 'wordpress', 'mysql']
         },
         {
           id: 9,
@@ -144,7 +144,7 @@ export default {
             width: 1280,
             height: 738
           },
-          devs: ['php', 'wordpress']
+          devs: ['php', 'wordpress', 'mysql']
         },
         {
           id: 10,
@@ -186,7 +186,7 @@ export default {
             width: 1280,
             height: 738
           },
-          devs: ['scala', 'play', 'js', 'vuejs', 'bootstrap', 'python']
+          devs: ['scala', 'play', 'js', 'vuejs', 'bootstrap', 'python', 'mysql', 'docker']
         },
         {
           id: 13,
@@ -200,7 +200,7 @@ export default {
             width: 1280,
             height: 737
           },
-          devs: ['php', 'laravel', 'js', 'vuejs', 'bootstrap']
+          devs: ['php', 'laravel', 'js', 'vuejs', 'bootstrap', 'mysql', 'redis']
         },
         {
           id: 14,
@@ -214,7 +214,7 @@ export default {
             width: 1280,
             height: 737
           },
-          devs: ['php', 'laravel', 'js', 'vuejs', 'bootstrap']
+          devs: ['php', 'laravel', 'js', 'vuejs', 'bootstrap', 'mysql', 'redis']
         }
       ]
     }

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faTwitter, faGithub, faFacebook, faPhp, faLaravel, faVuejs, faJs, faPython, faGoogle, faWordpress, faAws, faNodeJs, faHtml5, faCss3Alt, faBootstrap } from '@fortawesome/free-brands-svg-icons'
-import { faBars, faTimes, faLink, faSmile, faMeh, faTint, faCode, faChevronRight, faFileImport, faQuestionCircle } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faGithub, faFacebook, faPhp, faLaravel, faVuejs, faJs, faPython, faGoogle, faWordpress, faAws, faNodeJs, faHtml5, faCss3Alt, faBootstrap, faDocker } from '@fortawesome/free-brands-svg-icons'
+import { faBars, faTimes, faLink, faSmile, faMeh, faTint, faCode, faChevronRight, faFileImport, faQuestionCircle, faDatabase } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 const icons = [
@@ -20,6 +20,7 @@ const icons = [
     faHtml5,
     faCss3Alt,
     faBootstrap,
+    faDocker,
     faBars,
     faTimes,
     faLink,
@@ -30,6 +31,7 @@ const icons = [
     faChevronRight,
     faFileImport,
     faQuestionCircle,
+    faDatabase,
 ]
 
 for (let icon of icons) {

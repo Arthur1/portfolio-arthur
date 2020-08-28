@@ -26,6 +26,7 @@ export default {
   margin-bottom: 0.5rem;
   padding: 0.3rem;
   border-radius: 0.3rem;
+  font-size: 0.8rem;
 }
 .badge_icon {
   margin-right: 0.3rem;
