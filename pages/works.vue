@@ -67,7 +67,7 @@ export default {
           name: 'Shiren Identifier',
           year: 2018,
           description: 'スーパーファミコンのソフト「風来のシレン」の識別支援ツール。開発のすべてを担当。',
-          url: 'https://shiren.jizinet.work/',
+          url: null,
           github: 'https://github.com/Arthur1/shiren-identifier/',
           img: {
             src: require('@/assets/img/works/shiren.png'),
@@ -95,7 +95,7 @@ export default {
           name: 'ぶらつき学生ポータル',
           year: 2018,
           description: '拡張デッキ入アグリコラのサークル内向け戦績管理ツール。開発のすべてを担当。',
-          url: 'https://buratsuki.work/',
+          url: null,
           github: 'https://github.com/Arthur1/buratsuki-portal/',
           img: {
             src: require('@/assets/img/works/buratsuki_portal.png'),
@@ -193,21 +193,21 @@ export default {
           name: 'National Economy Online',
           year: 2020,
           description: 'Stay Homeプロジェクト第一弾。国産ワカプレボードゲームの傑作、ナショナルエコノミーをオンラインで遊べるWebアプリケーションを開発した。ゲーム工房スパ帝国様の二次利用ガイドラインに準拠。',
-          url: 'https://neo.buratsuki.work/',
-          github: 'https://github.com/Arthur1/national-economy/',
+          url: 'https://neo.buratsuki.page/',
+          github: 'https://github.com/Arthur1/national-economy2/',
           img: {
             src: require('@/assets/img/works/national_economy.png'),
             width: 1280,
             height: 737
           },
-          devs: ['php', 'laravel', 'js', 'vuejs', 'bootstrap', 'mysql', 'redis']
+          devs: ['php', 'laravel', 'js', 'vuejs', 'bootstrap', 'mysql', 'redis', 'docker']
         },
         {
           id: 14,
           name: 'AgriCompanion',
           year: 2020,
           description: 'Stay Homeプロジェクト第二弾。ボードゲーム「アグリコラ」をオンラインで遊ぶ際に、手札のドラフトや管理が行えるWebアプリケーションを開発した。WebSocketを利用してリアルタイムに更新される。',
-          url: 'https://comp.buratsuki.work/',
+          url: null,
           github: 'https://github.com/Arthur1/agricola-companion/',
           img: {
             src: require('@/assets/img/works/agricompanion.jpg'),
