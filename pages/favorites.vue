@@ -36,7 +36,7 @@
       <h2 class="headline2">Japanese Idols</h2>
       <ul>
         <li>高山一実 (乃木坂46)</li>
-        <li>尾関梨香 (欅坂46)</li>
+        <li>尾関梨香 (櫻坂46)</li>
         <li>丹生明里 (日向坂46)</li>
       </ul>
       <h2 class="headline2">Programming Languages</h2>
