@@ -77,7 +77,14 @@ export default {
   components: { SkillElement },
   head() {
     return {
-      title: 'Skills'
+      title: 'Skills',
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Skills',
+        },
+      ],
     }
   }
 }

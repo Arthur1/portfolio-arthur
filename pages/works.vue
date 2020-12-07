@@ -14,7 +14,14 @@ export default {
   components: { WorkElement },
   head() {
     return {
-      title: 'Works'
+      title: 'Works',
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Works',
+        },
+      ],
     }
   },
   data() {

@@ -54,7 +54,14 @@
 export default {
   head() {
     return {
-      title: 'Biography'
+      title: 'Biography',
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Biography',
+        },
+      ],
     }
   }
 }

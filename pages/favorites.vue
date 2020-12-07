@@ -54,7 +54,14 @@
 export default {
   head() {
     return {
-      title: 'Favorites'
+      title: 'Favorites',
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Favorites',
+        },
+      ],
     }
   }
 }

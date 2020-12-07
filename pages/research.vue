@@ -31,7 +31,14 @@
 export default {
   head() {
     return {
-      title: 'Research'
+      title: 'Research',
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Research',
+        },
+      ],
     }
   }
 }

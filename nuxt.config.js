@@ -40,6 +40,11 @@ export default {
         content: 'website',
       },
       {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'Arthur\'s Portfolio',
+      },
+      {
         hid: 'twitter:card',
         property: 'twitter:card',
         content: 'summary_large_image',
