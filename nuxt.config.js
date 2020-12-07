@@ -5,6 +5,7 @@ const environment = process.env.NODE_ENV
 const env = require(`./env.${environment}.js`)
 
 export default {
+  env,
   css: [
     'ress',
     'noto-sans-jp/noto_sans_jp_regular/css.css',
