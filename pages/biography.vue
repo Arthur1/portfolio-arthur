@@ -23,7 +23,11 @@
       <h2 class="headline2">{{ $t('biography.currentAffiliation.title') }}</h2>
       <ul>
         <li>{{ $t('biography.currentAffiliation.list[0]') }}</li>
-        <li><a href="https://titech.app/" target="_blank" rel="noopener">{{ $t('biography.currentAffiliation.list[1]') }}</a></li>
+        <li>
+          <a href="https://titech.app/" target="_blank" rel="noopener" :aria-label="$t('biography.currentAffiliation.list[0]')">
+            {{ $t('biography.currentAffiliation.list[1]') }}
+          </a>
+        </li>
       </ul>
       <h2 class="headline2">{{ $t('biography.formerAffiliation.title') }}</h2>
       <ul>
@@ -38,6 +42,10 @@
         <li>{{ $t('biography.awards.list[0]') }}</li>
         <li>{{ $t('biography.awards.list[1]') }}</li>
         <li>{{ $t('biography.awards.list[2]') }}</li>
+      </ul>
+      <h2 class="headline2">{{ $t('biography.qualifications.title') }}</h2>
+      <ul>
+        <li>{{ $t('biography.qualifications.list[0]') }}</li>
       </ul>
     </div>
   </div>

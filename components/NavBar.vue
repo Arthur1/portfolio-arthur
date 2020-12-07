@@ -2,7 +2,7 @@
   <div>
     <div class="logoBox">
       <NuxtLink :to="localePath('/')">
-        <img src="@/assets/img/logo.svg" class="logo" alt="Logo of Arthur's Portfolio">
+        <img src="@/assets/img/logo.svg" class="logo" alt="Logo of Arthur's Portfolio" width="407" height="127">
       </NuxtLink>
     </div>
     <div class="siteTitle">
@@ -30,24 +30,24 @@
         </li>
       </ul>
       <div class="langSwitcher" v-if="$i18n.locale === 'ja'">
-        <font-awesome-icon icon="globe" /> 日本語 / <NuxtLink :to="switchLocalePath('en')" class="langSwitcher_link">English</NuxtLink>
+        <font-awesome-icon icon="globe" /> 日本語 | <NuxtLink :to="switchLocalePath('en')" class="langSwitcher_link">English</NuxtLink>
       </div>
       <div class="langSwitcher" v-else>
         <font-awesome-icon icon="globe" /> <NuxtLink :to="switchLocalePath('ja')" class="langSwitcher_link">日本語</NuxtLink> / English
       </div>
       <ul class="snsList">
         <li class="snsList_element">
-          <a href="https://twitter.com/Arthur1__" target="_blank" rel="noopener">
+          <a href="https://twitter.com/Arthur1__" target="_blank" rel="noopener" aria-label="Twitter">
             <font-awesome-icon :icon="['fab', 'twitter']" />
           </a>
         </li>
         <li class="snsList_element">
-          <a href="https://www.facebook.com/arthur1hope" target="_blank" rel="noopener">
+          <a href="https://www.facebook.com/arthur1hope" target="_blank" rel="noopener" aria-label="Facebook">
             <font-awesome-icon :icon="['fab', 'facebook']" />
           </a>
         </li>
         <li class="snsList_element">
-          <a href="https://github.com/Arthur1" target="_blank" rel="noopener">
+          <a href="https://github.com/Arthur1" target="_blank" rel="noopener" aria-label="GitHub">
             <font-awesome-icon :icon="['fab', 'github']" />
           </a>
         </li>

@@ -25,12 +25,37 @@ export default {
     optimizeImages: true,
   },
   head: {
-    htmlAttrs: { lang: 'ja' },
+    htmlAttrs: {
+      prefix: 'og: http://ogp.me/ns#',
+    },
     titleTemplate: '%s | Arthur\'s Portfolio',
+    title: 'Arthur\'s Portfolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    ]
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        hid: 'twitter:card',
+        property: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:site',
+        property: 'twitter:site',
+        content: '@Arthur1__',
+      },
+    ],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico',
+      },
+    ],
   },
   router: {
     trailingSlash: true,

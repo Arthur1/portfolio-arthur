@@ -1,4 +1,5 @@
 {
+  "metaDescription": "This is Arthur's portfolio website. Currently I study computer science at Tokyo Tech. You can view what I've created, especially web apps.",
   "biography": {
     "history": {
       "title": "Education",
@@ -36,6 +37,12 @@
         "Global System Development Training in the Philippines (Education Program for Leading Information Technology Specialists), Tokyo Tech (2020)",
         "Grand Prix, Workshop on System Implementation (Web Programming), Tokyo Tech (2020)",
         "Grand Prix and Special Prizes, Summer Camp on Team-based Software Development, enPiT AiBiC (2019)"
+      ]
+    },
+    "qualifications": {
+      "title": "Qualifications",
+      "list": [
+        "TOEIC L&R 800"
       ]
     }
   },

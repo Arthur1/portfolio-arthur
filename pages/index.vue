@@ -1,7 +1,7 @@
 <template>
   <div class="eyeCatch">
     <div class="eyeCatch_logo">
-      <img src="@/assets/img/logo.svg" class="eyeCatch_logo_img" alt="Logo of Arthur's Portfolio">
+      <img src="@/assets/img/logo.svg" class="eyeCatch_logo_img" alt="Logo of Arthur's Portfolio" width="407" height="127">
       <div class="eyeCatch_logo_text">Arthur's Portfolio</div>
     </div>
     <div class="eyeCatch_text">
@@ -14,7 +14,15 @@
 export default {
   head() {
     return {
-      title: 'Top'
+      title: 'Arthur\'s Portfolio',
+      titleTemplate: '',
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Arthur\'s Portfolio',
+        },
+      ],
     }
   }
 }

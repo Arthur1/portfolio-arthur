@@ -1,10 +1,10 @@
 <template>
   <div class="baseWrapper">
     <header class="navBox" :class="{ 'navBox-isOpen': spMenuIsOpen }">
-      <nav-bar />
+      <NavBar />
     </header>
     <main class="mainBox">
-      <nuxt />
+      <Nuxt />
     </main>
     <div class="toggleButtonBox" :class="{ 'toggleButtonBox-isOpen': spMenuIsOpen, 'openButtonBox-black': openButtonIsBlack }">
       <font-awesome-icon v-if="spMenuIsOpen" :icon="['fas', 'times']" @click="closeSpMenu" />
@@ -15,6 +15,32 @@
 <script>
 export default {
   name: 'defaultLayout',
+  head() {
+    return {
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$t('metaDescription'),
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.$t('metaDescription'),
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `${process.env.BASE_URL}${this.$route.path}`,
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: `${process.env.BASE_URL}/ogpimage.png`,
+        },
+      ],
+    }
+  },
   data() {
     return {
       spMenuIsOpen: false,
