@@ -13,12 +13,8 @@
   </div>
 </template>
 <script>
-import NavBar from '@/components/NavBar.vue'
 export default {
   name: 'defaultLayout',
-  components: {
-    NavBar
-  },
   data() {
     return {
       spMenuIsOpen: false,

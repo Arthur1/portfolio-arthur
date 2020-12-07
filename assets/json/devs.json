@@ -1,182 +1,192 @@
 [
-    {
-        "id": "php",
-        "label": "PHP",
-        "bgColor": "#777cb4",
-        "textColor": "white",
-        "icon": [
-            "fab",
-            "php"
-        ]
-    },
-    {
-        "id": "js",
-        "label": "JavaScript",
-        "bgColor": "#f7df1e",
-        "textColor": "black",
-        "icon": [
-            "fab",
-            "js"
-        ]
-    },
-    {
-        "id": "laravel",
-        "label": "Laravel",
-        "bgColor": "#f55247",
-        "textColor": "white",
-        "icon": [
-            "fab",
-            "laravel"
-        ]
-    },
-    {
-        "id": "vuejs",
-        "label": "Vue.js",
-        "bgColor": "#42b883",
-        "textColor": "white",
-        "icon": [
-            "fab",
-            "vuejs"
-        ]
-    },
-    {
-        "id": "bootstrap",
-        "label": "Bootstrap",
-        "bgColor": "#563e7b",
-        "textColor": "white",
-        "icon": [
-            "fab",
-            "bootstrap"
-        ]
-    },
-    {
-        "id": "html",
-        "label": "HTML5",
-        "bgColor": "#e34f26",
-        "textColor": "white",
-        "icon": [
-            "fab",
-            "html5"
-        ]
-    },
-    {
-        "id": "css",
-        "label": "CSS3",
-        "bgColor": "#3c97d2",
-        "textColor": "white",
-        "icon": [
-            "fab",
-            "css3"
-        ]
-    },
-    {
-        "id": "wordpress",
-        "label": "Wordpress",
-        "bgColor": "#21759b",
-        "textColor": "white",
-        "icon": [
-            "fab",
-            "wordpress"
-        ]
-    },
-    {
-        "id": "fuelphp",
-        "label": "FuelPHP",
-        "bgColor": "#8303d8",
-        "textColor": "white",
-        "icon": [
-            "fas",
-            "tint"
-        ]
-    },
-    {
-        "id": "python",
-        "label": "Python",
-        "bgColor": "#4584b6",
-        "textColor": "white",
-        "icon": [
-            "fab",
-            "python"
-        ]
-    },
-    {
-        "id": "play",
-        "label": "Play Framework",
-        "bgColor": "#48661f",
-        "textColor": "white",
-        "icon": [
-            "fas",
-            "chevron-right"
-        ]
-    },
-    {
-        "id": "scala",
-        "label": "Scala",
-        "bgColor": "#DF3835",
-        "textColor": "white",
-        "icon": [
-            "fas",
-            "question-circle"
-        ]
-    },
-    {
-        "id": "ifttt",
-        "label": "IFTTT",
-        "bgColor": "#000000",
-        "textColor": "white",
-        "icon": [
-            "fas",
-            "question-circle"
-        ]
-    },
-    {
-        "id": "gas",
-        "label": "Google Apps Script",
-        "bgColor": "#3e82f9",
-        "textColor": "white",
-        "icon": [
-            "fas",
-            "file-import"
-        ]
-    },
-    {
-        "id": "aws",
-        "label": "AWS",
-        "bgColor": "#ff9900",
-        "textColor": "white",
-        "icon": [
-            "fab",
-            "aws"
-        ]
-    },
-    {
-        "id": "mysql",
-        "label": "MySQL",
-        "bgColor": "#00758f",
-        "textColor": "white",
-        "icon": [
-            "fas",
-            "database"
-        ]
-    },
-    {
-        "id": "redis",
-        "label": "Redis",
-        "bgColor": "#da2b21",
-        "textColor": "white",
-        "icon": [
-            "fas",
-            "database"
-        ]
-    },
-    {
-        "id": "docker",
-        "label": "Docker",
-        "bgColor": "#0db7ed",
-        "textColor": "white",
-        "icon": [
-            "fab",
-            "docker"
-        ]
-    }
+  {
+    "id": "php",
+    "label": "PHP",
+    "bgColor": "#777cb4",
+    "textColor": "white",
+    "icon": [
+      "fab",
+      "php"
+    ]
+  },
+  {
+    "id": "js",
+    "label": "JavaScript",
+    "bgColor": "#f7df1e",
+    "textColor": "black",
+    "icon": [
+      "fab",
+      "js"
+    ]
+  },
+  {
+    "id": "laravel",
+    "label": "Laravel",
+    "bgColor": "#f55247",
+    "textColor": "white",
+    "icon": [
+      "fab",
+      "laravel"
+    ]
+  },
+  {
+    "id": "vuejs",
+    "label": "Vue.js",
+    "bgColor": "#42b883",
+    "textColor": "white",
+    "icon": [
+      "fab",
+      "vuejs"
+    ]
+  },
+  {
+    "id": "nuxtjs",
+    "label": "Nuxt.js",
+    "bgColor": "#2f495e",
+    "textColor": "white",
+    "icon": [
+      "fab",
+      "vuejs"
+    ]
+  },
+  {
+    "id": "bootstrap",
+    "label": "Bootstrap",
+    "bgColor": "#563e7b",
+    "textColor": "white",
+    "icon": [
+      "fab",
+      "bootstrap"
+    ]
+  },
+  {
+    "id": "html",
+    "label": "HTML5",
+    "bgColor": "#e34f26",
+    "textColor": "white",
+    "icon": [
+      "fab",
+      "html5"
+    ]
+  },
+  {
+    "id": "css",
+    "label": "CSS3",
+    "bgColor": "#3c97d2",
+    "textColor": "white",
+    "icon": [
+      "fab",
+      "css3"
+    ]
+  },
+  {
+    "id": "wordpress",
+    "label": "Wordpress",
+    "bgColor": "#21759b",
+    "textColor": "white",
+    "icon": [
+      "fab",
+      "wordpress"
+    ]
+  },
+  {
+    "id": "fuelphp",
+    "label": "FuelPHP",
+    "bgColor": "#8303d8",
+    "textColor": "white",
+    "icon": [
+      "fas",
+      "tint"
+    ]
+  },
+  {
+    "id": "python",
+    "label": "Python",
+    "bgColor": "#4584b6",
+    "textColor": "white",
+    "icon": [
+      "fab",
+      "python"
+    ]
+  },
+  {
+    "id": "play",
+    "label": "Play Framework",
+    "bgColor": "#48661f",
+    "textColor": "white",
+    "icon": [
+      "fas",
+      "chevron-right"
+    ]
+  },
+  {
+    "id": "scala",
+    "label": "Scala",
+    "bgColor": "#DF3835",
+    "textColor": "white",
+    "icon": [
+      "fas",
+      "question-circle"
+    ]
+  },
+  {
+    "id": "ifttt",
+    "label": "IFTTT",
+    "bgColor": "#000000",
+    "textColor": "white",
+    "icon": [
+      "fas",
+      "question-circle"
+    ]
+  },
+  {
+    "id": "gas",
+    "label": "Google Apps Script",
+    "bgColor": "#3e82f9",
+    "textColor": "white",
+    "icon": [
+      "fas",
+      "file-import"
+    ]
+  },
+  {
+    "id": "aws",
+    "label": "AWS",
+    "bgColor": "#ff9900",
+    "textColor": "white",
+    "icon": [
+      "fab",
+      "aws"
+    ]
+  },
+  {
+    "id": "mysql",
+    "label": "MySQL",
+    "bgColor": "#00758f",
+    "textColor": "white",
+    "icon": [
+      "fas",
+      "database"
+    ]
+  },
+  {
+    "id": "redis",
+    "label": "Redis",
+    "bgColor": "#da2b21",
+    "textColor": "white",
+    "icon": [
+      "fas",
+      "database"
+    ]
+  },
+  {
+    "id": "docker",
+    "label": "Docker",
+    "bgColor": "#0db7ed",
+    "textColor": "white",
+    "icon": [
+      "fab",
+      "docker"
+    ]
+  }
 ]

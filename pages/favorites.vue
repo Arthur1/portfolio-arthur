@@ -4,46 +4,48 @@
       <h1 class="headline">Favorites</h1>
     </div>
     <div class="container">
-      <h2 class="headline2">Music</h2>
+      <h2 class="headline2">{{ $t('favorites.music.title') }}</h2>
       <ul>
-        <li>Sound Horizon</li>
-        <li>フジファブリック</li>
-        <li>CAPSULE</li>
+        <li>{{ $t('favorites.music.list[0]') }}</li>
+        <li>{{ $t('favorites.music.list[1]') }}</li>
+        <li>{{ $t('favorites.music.list[2]') }}</li>
       </ul>
-      <p>その他、クラブミュージック、80's J-POPを中心に幅広く聴きます</p>
-      <h2 class="headline2">Video Games</h2>
+      <p>{{ $t('favorites.music.description') }}</p>
+      <h2 class="headline2">{{ $t('favorites.videoGames.title') }}</h2>
       <ul>
-        <li>風来のシレン</li>
-        <li>MOTHER</li>
-        <li>キングダムハーツ</li>
-        <li>バンジョーとカズーイの大冒険</li>
+        <li>{{ $t('favorites.videoGames.list[0]') }}</li>
+        <li>{{ $t('favorites.videoGames.list[1]') }}</li>
+        <li>{{ $t('favorites.videoGames.list[2]') }}</li>
+        <li>{{ $t('favorites.videoGames.list[3]') }}</li>
       </ul>
-      <p>64までの任天堂ハードが好きです</p>
-      <h2 class="headline2">Board Games</h2>
+      <p>{{ $t('favorites.videoGames.description') }}</p>
+      <h2 class="headline2">{{ $t('favorites.boardGames.title') }}</h2>
       <ul>
-        <li>アグリコラ</li>
-        <li>グラスロード</li>
-        <li>ラブレター</li>
+        <li>{{ $t('favorites.boardGames.list[0]') }}</li>
+        <li>{{ $t('favorites.boardGames.list[1]') }}</li>
+        <li>{{ $t('favorites.boardGames.list[2]') }}</li>
       </ul>
-      <p>
-        Boîte à Jeuxにおけるアグリコラの最高ELOは1926
-      </p>
-      <h2 class="headline2">Smartphone Games</h2>
+      <p>{{ $t('favorites.boardGames.description') }}</p>
+      <h2 class="headline2">{{ $t('favorites.smartphoneGames.title') }}</h2>
       <ul>
-        <li>Shadowverse</li>
-        <li>Hearthstone (Battlegrounds)</li>
+        <li>{{ $t('favorites.smartphoneGames.list[0]') }}</li>
+        <li>{{ $t('favorites.smartphoneGames.list[1]') }}</li>
       </ul>
-      <h2 class="headline2">Japanese Idols</h2>
+      <h2 class="headline2">{{ $t('favorites.japaneseIdols.title') }}</h2>
       <ul>
-        <li>高山一実 (乃木坂46)</li>
-        <li>尾関梨香 (櫻坂46)</li>
-        <li>丹生明里 (日向坂46)</li>
+        <li>{{ $t('favorites.japaneseIdols.list[0]') }}</li>
+        <li>{{ $t('favorites.japaneseIdols.list[1]') }}</li>
+        <li>{{ $t('favorites.japaneseIdols.list[2]') }}</li>
       </ul>
-      <h2 class="headline2">Programming Languages</h2>
+      <h2 class="headline2">{{ $t('favorites.programmingLanguages.title') }}</h2>
       <ul>
         <li>PHP</li>
         <li>Scala</li>
         <li>ES2015</li>
+      </ul>
+      <h2 class="headline2">{{ $t('favorites.misc.title') }}</h2>
+      <ul>
+        <li>{{ $t('favorites.misc.list[0]') }}</li>
       </ul>
     </div>
   </div>

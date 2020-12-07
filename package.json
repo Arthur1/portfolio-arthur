@@ -1,10 +1,10 @@
 {
   "name": "portfolio-arthur",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "generate": "nuxt generate",
-    "start": "nuxt start",
+    "dev": "cross-env NODE_ENV=development nuxt",
+    "build": "cross-env NODE_ENV=production nuxt build",
+    "generate": "cross-env NODE_ENV=production nuxt generate",
+    "start": "cross-env NODE_ENV=production nuxt start",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
@@ -21,9 +21,12 @@
   },
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.2.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "cross-env": "^7.0.3",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.0",
     "imagemin-svgo": "^8.0.0",
+    "nuxt-i18n": "^6.15.4",
     "push-dir": "^0.4.1"
   }
 }

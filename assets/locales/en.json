@@ -1,0 +1,172 @@
+{
+  "biography": {
+    "history": {
+      "title": "Education",
+      "list": [
+        {
+          "date": "Apr 2015 - Current",
+          "description": "Tokyo Institute of Technology, Bachelor of Engineering"
+        },
+        {
+          "date": "Apr 2012 - Mar 2015",
+          "description": "Numazu Higashi High School"
+        }
+      ]
+    },
+    "currentAffiliation": {
+      "title": "Affiliation",
+      "list": [
+        "Public Address Team, Joint Concert of High School Band Clubs in Shizuoka",
+        "Titech App Project"
+      ]
+    },
+    "formerAffiliation": {
+      "title": "Former Affiliation",
+      "list": [
+        "Network Team, Tokyo Tech Festival Executive Committee",
+        "Staff, School of Computing Freshman Seminar, Tokyo Tech",
+        "Swimming Instructor, Numazu Higashi Highschool (2015-2018)",
+        "Chairman, 67th Koryo Festival",
+        "Chief Editor, Numazu Tabloid"
+      ]
+    },
+    "awards": {
+      "title": "Awards and Activities",
+      "list": [
+        "Global System Development Training in the Philippines (Education Program for Leading Information Technology Specialists), Tokyo Tech (2020)",
+        "Grand Prix, Workshop on System Implementation (Web Programming), Tokyo Tech (2020)",
+        "Grand Prix and Special Prizes, Summer Camp on Team-based Software Development, enPiT AiBiC (2019)"
+      ]
+    }
+  },
+  "works": {
+    "koudaisai2016": {
+      "title": "Tokyo Tech Festival 2016 Official Website",
+      "description": "Mainly I was responsible for the development of back-end. I also created the web map of stalls using Google Map."
+    },
+    "koudaisai2017": {
+      "title": "Tokyo Tech Festival 2017 Official Website",
+      "description": "I designed the REST API of organizations' information. I also developed the new web system to vote for Grandprix."
+    },
+    "goukakuJizi": {
+      "title": "Supporting Examinees Website by JIZI",
+      "description": "The website that provides information for examinees has launched. I was responsible for design, front-end and back-end. I didn't use JavaScript for implementing UI."
+    },
+    "shirenIdentifier": {
+      "title": "Shiren Identifier",
+      "description": "This is an app that supports to identify items in the video game \"Shiren the Wanderer\"."
+    },
+    "titechAppProject": {
+      "title": "Titech App Project Website",
+      "description": "It is a website of the circle which develops apps for Tokyo Tech students. I was responsible for the front-end development."
+    },
+    "buratsukiPortal": {
+      "title": "Perpetual Students' Portal",
+      "description": "It is a score management tool for the board game \"Agricola\"."
+    },
+    "agricolaBook": {
+      "title": "Special lecture: Expansions of Agricola + Randomizer for Agricola",
+      "description": "I published the fanzine of the board game \"Agricola\" at the Game Market 2018 Autumn. I also provided the randomizer app as a promo."
+    },
+    "tokyoKoryo": {
+      "title": "Tokyo Koryo Alumni Association Website",
+      "description": "I reconstructed the website of Tokyo Koryo Alumi Association."
+    },
+    "internalSpace": {
+      "title": "Internal Space Website",
+      "description": "I developed the website of the art team \"Internal Space\"."
+    },
+    "reborn": {
+      "title": "Re:born -You will be Back to the Fetus, Go through the Birth Canal and Reborn-",
+      "description": "It was the work for 27th International collegiate Virtual Reality Contest (IVRC 2019). I developed the system which integrated a camera, a computer for machine learning and a display."
+    },
+    "lifeGame": {
+      "title": "Life Game Simulator",
+      "description": "It was a work for the event of Sci-Fi Society in Tokyo Tech Festival 2019. The exhibition was cancelled because of Typhoon Hagibis."
+    },
+    "gachiproOfSysimpl": {
+      "title": "Fully understand the exam schedule",
+      "description": "In the course of Workshop on System Implementation [CSC.T375], we developed an app for searching information of final exams. I was the project manager and a front-end developer."
+    },
+    "nationalEconomy": {
+      "title": "National Economy Online",
+      "description": "It is the 1st work as Stay Home Project. I developed a web application for playing the board game \"National Economy\" online."
+    },
+    "agriCompanion": {
+      "title": "AgriCompanion",
+      "description": "It is the 2nd work as Stay Home Project. I developed a web application for playing the board game \"Agricola\" online. You can draft and manage your cards with the app."
+    }
+  },
+  "research": {
+    "interests": {
+      "title": "Research Interests",
+      "list": [
+        "natural language",
+        "AI for board games",
+        "a new platform replacing WWW"
+      ]
+    },
+    "publications": {
+      "title": "Papers and Publications",
+      "list": [
+        "Shoko Kimura, Ayaka Fujii, Kenichi Ito, Kazuki Asakura, Rihito Tsuboi and Kazunori Miyata. Into the Womb -Born Again- A VR Experience of Being Warmly Swaddled Using \"Otonamaki\" from Japanese Method. ConVRgence (VRIC) Virtual Reality International Conference 2020, pages 169-171, April 2020.",
+        "Shoko Kimura, Ayaka Fujii, Hiroyuki Hoshi, Rei Tamaru, Ryoma Miyauchi, Kazuki Asakura, Akihiro Suzuki, Rihito Tsuboi. Re:born -You will be Back to the Fetus, Go through the Birth Canal and Reborn-. The Virtual Reality Society of Japan Conference Proceedings, 24:2B-04, Sep 2019.",
+        "Kazuki Asakura. Linguistic Feature of Popular Songs in Karaoke. Poster Session of Linguistics B [LAH.T210], Jul 2019."
+      ]
+    }
+  },
+  "favorites": {
+    "music": {
+      "title": "Music",
+      "list": [
+        "Sound Horizon",
+        "Fujifabric",
+        "CAPSULE"
+      ],
+      "description": "I listen to music widely. Especially I like club music and 80's J-POP."
+    },
+    "videoGames": {
+      "title": "Video Games",
+      "list": [
+        "Shiren the Wanderer",
+        "MOTHER",
+        "Kingdom Hearts",
+        "Banjo-Kazooie"
+      ],
+      "description": "I like old video game hardware such as Nintendo 64."
+    },
+    "boardGames": {
+      "title": "Board Games",
+      "list": [
+        "Agricola",
+        "Glass Road",
+        "Love Letter"
+      ],
+      "description": "My highest ELO of Agricola is 1926. (Boîte à Jeux)"
+    },
+    "smartphoneGames": {
+      "title": "Smartphone Games",
+      "list": [
+        "Shadowverse",
+        "Hearthstone (the Battlegrounds)"
+      ]
+    },
+    "japaneseIdols": {
+      "title": "Japanese Idols",
+      "list": [
+        "Kazumi Takayama (Nogizaka 46)",
+        "Rika Ozeki (Sakurazaka 46)",
+        "Akari Nibu (Hinatazaka 46)"
+      ]
+    },
+    "programmingLanguages": {
+      "title": "Programming Languages"
+    },
+    "misc": {
+      "title": "Misc",
+      "list": [
+        "Monokai"
+      ]
+    }
+  }
+}

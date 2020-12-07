@@ -1,22 +1,40 @@
 <template>
   <div>
     <div class="logoBox">
-      <nuxt-link to="/">
+      <NuxtLink :to="localePath('/')">
         <img src="@/assets/img/logo.svg" class="logo" alt="Logo of Arthur's Portfolio">
-      </nuxt-link>
+      </NuxtLink>
     </div>
     <div class="siteTitle">
       Arthur's Portfolio
     </div>
     <nav>
       <ul class="linkList">
-        <li class="linkList_element"><nuxt-link to="/biography">Biography</nuxt-link></li>
-        <li class="linkList_element"><nuxt-link to="/works">Works</nuxt-link></li>
-        <li class="linkList_element"><nuxt-link to="/skills">Skills</nuxt-link></li>
-        <li class="linkList_element"><nuxt-link to="/research">Research</nuxt-link></li>
-        <li class="linkList_element"><nuxt-link to="/favorites">Favorites</nuxt-link></li>
-        <li class="linkList_element"><a href="https://arthur.hateblo.jp/" target="_blank" rel="noopener">Blog</a></li>
+        <li class="linkList_element">
+          <NuxtLink :to="localePath('/biography/')">Biography</NuxtLink>
+        </li>
+        <li class="linkList_element">
+          <NuxtLink :to="localePath('/works/')">Works</NuxtLink>
+        </li>
+        <li class="linkList_element">
+          <NuxtLink :to="localePath('/skills/')">Skills</NuxtLink>
+        </li>
+        <li class="linkList_element">
+          <NuxtLink :to="localePath('/research/')">Research</NuxtLink>
+        </li>
+        <li class="linkList_element">
+          <NuxtLink :to="localePath('/favorites/')">Favorites</NuxtLink>
+        </li>
+        <li class="linkList_element">
+          <a href="https://arthur.hateblo.jp/" target="_blank" rel="noopener">Blog</a>
+        </li>
       </ul>
+      <div class="langSwitcher" v-if="$i18n.locale === 'ja'">
+        <font-awesome-icon icon="globe" /> 日本語 / <NuxtLink :to="switchLocalePath('en')" class="langSwitcher_link">English</NuxtLink>
+      </div>
+      <div class="langSwitcher" v-else>
+        <font-awesome-icon icon="globe" /> <NuxtLink :to="switchLocalePath('ja')" class="langSwitcher_link">日本語</NuxtLink> / English
+      </div>
       <ul class="snsList">
         <li class="snsList_element">
           <a href="https://twitter.com/Arthur1__" target="_blank" rel="noopener">
@@ -29,7 +47,7 @@
           </a>
         </li>
         <li class="snsList_element">
-          <a href="https://github.com/Arthur1/" target="_blank" rel="noopener">
+          <a href="https://github.com/Arthur1" target="_blank" rel="noopener">
             <font-awesome-icon :icon="['fab', 'github']" />
           </a>
         </li>
@@ -50,17 +68,34 @@ export default {
 .siteTitle {
   text-align: center;
   font-size: 1.2rem;
-  margin: 30px 0 60px;
+  margin: 30px 0 50px;
 }
 
 .logoBox {
   width: 70%;
   margin: 60px auto 30px;
+  display: none;
+  @include mq(lg) {
+    display: block;
+  }
 }
 .logo {
   display: block;
   width: 100%;
   max-height: 100px;
+}
+
+.langSwitcher {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 1rem;
+}
+.langSwitcher_link {
+  color: $violet;
+  text-decoration: none;
+  &:hover {
+    opacity: 0.75;
+  }
 }
 
 .linkList {
@@ -89,7 +124,7 @@ export default {
     opacity: 0.75;
   }
   &.nuxt-link-exact-active {
-    color: #e6db74;
+    color: $yellow;
   }
 }
 

@@ -1,0 +1,176 @@
+{
+  "biography": {
+    "history": {
+      "title": "略歴",
+      "list": [
+        {
+          "date": "2015.03",
+          "description": "静岡県立沼津東高等学校 普通科 卒業"
+        },
+        {
+          "date": "2015.04",
+          "description": "東京工業大学 第5類 入学"
+        },
+        {
+          "date": "現在",
+          "description": "同 工学部 情報工学科 在学中"
+        }
+      ]
+    },
+    "currentAffiliation": {
+      "title": "現所属・役職",
+      "list": [
+        "静岡県東部高等学校軽音楽部 合同発表会 音響チーム",
+        "Titech App Project"
+      ]
+    },
+    "formerAffiliation": {
+      "title": "過去の所属・役職",
+      "list": [
+        "工大祭実行委員会 ネットワーク局",
+        "東京工業大学 情報理工学院 バスゼミスタッフ",
+        "静岡県立沼津東高等学校 海浜教室 助手 (2015-2018)",
+        "第67回香陵祭祭典委員長",
+        "ぬまづたぶろいど。編集長"
+      ]
+    },
+    "awards": {
+      "title": "受賞・参加",
+      "list": [
+        "IT特別教育プログラム(情報理工学院) グローバルシステム開発研修 参加 (2020)",
+        "システム構築演習(情報工学系科目) Webプログラミング成果発表会 チーム「システム構築演習完全に理解した」 最優秀賞 (2020)",
+        "enPiT AiBiC東日本 夏合宿 チーム「C#++」 マホロバマインズ賞／enPiT AiBiC賞／NSSOL賞 (2019)"
+      ]
+    }
+  },
+  "works": {
+    "koudaisai2016": {
+      "title": "工大祭2016公式サイト",
+      "description": "主にバックエンド（認証・各種申請フォームのロジック）を担当。Webパンフレットでは模擬店マップなどのフロントエンドも担当。"
+    },
+    "koudaisai2017": {
+      "title": "工大祭2017公式サイト",
+      "description": "参加団体へ提供する企画情報APIの設計、来場者にスマートフォンでグランプリ投票を行ってもらう新システムの実装を担当。"
+    },
+    "goukakuJizi": {
+      "title": "工大祭実行委員会受験生応援サイト",
+      "description": "受験生向けの情報を掲載するサイトを新規開設。デザイン、フロントエンド、バックエンドを担当。JavaScriptを使用せずにフロントの実装をした。"
+    },
+    "shirenIdentifier": {
+      "title": "Shiren Identifier",
+      "description": "スーパーファミコンのソフト「風来のシレン」の識別支援ツール。開発のすべてを担当。"
+    },
+    "titechAppProject": {
+      "title": "Titech App Project Webサイト",
+      "description": "東工大生向けのアプリ・ツールを開発するサークルのWebサイト。フロントエンドを担当。"
+    },
+    "buratsukiPortal": {
+      "title": "ぶらつき学生ポータル",
+      "description": "拡張デッキ入アグリコラのサークル内向け戦績管理ツール。開発のすべてを担当。"
+    },
+    "agricolaBook": {
+      "title": "教養特論：拡張アグリコラ学 + Randomizer for Agricola",
+      "description": "ボードゲーム「アグリコラ」の拡張デッキファンブックを自費出版。ゲームマーケット2018秋にて頒布し、110部を完売。読者付録のランダマイザWebアプリも開発した。"
+    },
+    "tokyoKoryo": {
+      "title": "東京香陵同窓会 Webサイト",
+      "description": "東京香陵同窓会のWebサイトをリニューアルした。"
+    },
+    "internalSpace": {
+      "title": "Internal Space Webサイト",
+      "description": "アート制作グループInternal SpaceのWebサイトを制作した。"
+    },
+    "reborn": {
+      "title": "Re:born 〜生まれる体験出産VR〜",
+      "description": "第27回国際学生対抗バーチャルリアリティコンテスト出展作品。体験者の顔写真を撮影するデバイス、GANを用いて生成した両親の顔写真を生成するデバイス、生成された画像を表示するデバイスを繋ぐアプリケーションの開発を担当した。"
+    },
+    "lifeGame": {
+      "title": "ライフゲームシミュレータ",
+      "description": "工大祭2019 SF研究会講義室企画「人工生命」で展示予定だったもの。展示は令和元年東日本台風の影響で中止。"
+    },
+    "gachiproOfSysimpl": {
+      "title": "試験日程完全に理解した",
+      "description": "CSC.T375 システム構築演習にてチーム制作した、東京工業大学の試験日程を閲覧しやすくするWebアプリケーション。プロジェクトマネージャおよびフロントエンドを担当。"
+    },
+    "nationalEconomy": {
+      "title": "National Economy Online",
+      "description": "Stay Homeプロジェクト第一弾。国産ワカプレボードゲームの傑作、ナショナルエコノミーをオンラインで遊べるWebアプリケーションを開発した。ゲーム工房スパ帝国様の二次利用ガイドラインに準拠。"
+    },
+    "agriCompanion": {
+      "title": "AgriCompanion",
+      "description": "Stay Homeプロジェクト第二弾。ボードゲーム「アグリコラ」をオンラインで遊ぶ際に、手札のドラフトや管理が行えるWebアプリケーションを開発した。WebSocketを利用してリアルタイムに更新される。"
+    }
+  },
+  "research": {
+    "interests": {
+      "title": "興味のある分野",
+      "list": [
+        "自然言語",
+        "ボードゲームAI",
+        "Webを置き換える新たなメディアプラットフォーム"
+      ]
+    },
+    "publications": {
+      "title": "論文・発表他",
+      "list": [
+        "Shoko Kimura, Ayaka Fujii, Kenichi Ito, Kazuki Asakura, Rihito Tsuboi and Kazunori Miyata. Into the Womb -Born Again- A VR Experience of Being Warmly Swaddled Using \"Otonamaki\" from Japanese Method. ConVRgence (VRIC) Virtual Reality International Conference 2020, pages 169-171, April 2020.",
+        "木村 正子, 藤井 綺香, 星 宏侑, 田丸 黎, 宮内 涼将, 朝倉 一希, 鈴木 章大, 坪井 理人. Re:born 〜生まれる体験出産VR〜. 日本バーチャルリアリティ学会大会論文集, 24:2B-04, 2019年9月.",
+        "朝倉 一希. カラオケで人気な曲の歌詞の表現特性. [LAH.T210]言語学B ポスターセッション, 2019年7月."
+      ]
+    }
+  },
+  "favorites": {
+    "music": {
+      "title": "音楽",
+      "list": [
+        "Sound Horizon",
+        "フジファブリック",
+        "CAPSULE"
+      ],
+      "description": "その他、クラブミュージック、80's J-POPを中心に幅広く聴きます"
+    },
+    "videoGames": {
+      "title": "テレビゲーム",
+      "list": [
+        "風来のシレン",
+        "MOTHER",
+        "キングダムハーツ",
+        "バンジョーとカズーイの大冒険"
+      ],
+      "description": "64までの任天堂ハードが好きです"
+    },
+    "boardGames": {
+      "title": "ボードゲーム",
+      "list": [
+        "アグリコラ",
+        "グラスロード",
+        "ラブレター"
+      ],
+      "description": "Boîte à Jeuxにおけるアグリコラの最高ELOは1926"
+    },
+    "smartphoneGames": {
+      "title": "スマートフォンゲーム",
+      "list": [
+        "Shadowverse",
+        "ハースストーン (バトルグラウンド)"
+      ]
+    },
+    "japaneseIdols": {
+      "title": "アイドル",
+      "list": [
+        "高山一実 (乃木坂46)",
+        "尾関梨香 (櫻坂46)",
+        "丹生明里 (日向坂46)"
+      ]
+    },
+    "programmingLanguages": {
+      "title": "プログラミング言語"
+    },
+    "misc": {
+      "title": "その他",
+      "list": [
+        "Monokai"
+      ]
+    }
+  }
+}

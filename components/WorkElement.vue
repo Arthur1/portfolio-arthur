@@ -1,12 +1,12 @@
 <template>
   <div class="workBox">
     <div class="workBox_child">
-      <h2 class="headline2">{{ work.name }}<small class="work_year">[{{ work.year }}]</small></h2>
+      <h2 class="headline2"> {{ $t(`works.${work.id}.title`) }}<small class="work_year">[{{ work.year }}]</small></h2>
       <div>
         <dev-badge v-for="devId in work.devs" :devId="devId" :key="devId" />
       </div>
       <p>
-        {{ work.description }}
+        {{ $t(`works.${work.id}.description`) }}
       </p>
       <dl class="work_links">
         <dt v-if="work.url"><font-awesome-icon :icon="['fas', 'link']" /></dt>
@@ -16,7 +16,7 @@
       </dl>
     </div>
     <div class="workBox_child">
-      <img :src="work.img.src" :width="work.img.width" :height="work.img.height" :alt="`${work.name}の写真`" />
+      <img :src="work.img.src" :width="work.img.width" :height="work.img.height" :alt="$t(`works.${work.id}.title`)" />
     </div>
   </div>
 </template>

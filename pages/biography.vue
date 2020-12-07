@@ -5,33 +5,39 @@
     </div>
     <div class="container">
       <h1>ASAKURA Kazuki a.k.a. Arthur</h1>
-      <h2 class="headline2">略歴</h2>
-      <dl class="historyList">
-        <dt>2015.03</dt>
-        <dd>静岡県立沼津東高等学校 普通科 卒業</dd>
-        <dt>2015.04</dt>
-        <dd>東京工業大学 第5類 入学</dd>
-        <dt>現在</dt>
-        <dd>同 工学部 情報工学科 在学中</dd>
+      <h2 class="headline2">{{ $t('biography.history.title') }}</h2>
+      <dl class="historyList" v-if="$i18n.locale === 'ja'">
+        <dt>{{ $t('biography.history.list[0].date') }}</dt>
+        <dd>{{ $t('biography.history.list[0].description') }}</dd>
+        <dt>{{ $t('biography.history.list[1].date') }}</dt>
+        <dd>{{ $t('biography.history.list[1].description') }}</dd>
+        <dt>{{ $t('biography.history.list[2].date') }}</dt>
+        <dd>{{ $t('biography.history.list[2].description') }}</dd>
       </dl>
-      <h2 class="headline2">現所属・役職</h2>
+      <dl class="historyList-en" v-else>
+        <dt>{{ $t('biography.history.list[0].date') }}</dt>
+        <dd>{{ $t('biography.history.list[0].description') }}</dd>
+        <dt>{{ $t('biography.history.list[1].date') }}</dt>
+        <dd>{{ $t('biography.history.list[1].description') }}</dd>
+      </dl>
+      <h2 class="headline2">{{ $t('biography.currentAffiliation.title') }}</h2>
       <ul>
-        <li>静岡県東部高等学校軽音楽部 合同発表会 音響チーム</li>
-        <li>Titech App Project</li>
+        <li>{{ $t('biography.currentAffiliation.list[0]') }}</li>
+        <li><a href="https://titech.app/" target="_blank" rel="noopener">{{ $t('biography.currentAffiliation.list[1]') }}</a></li>
       </ul>
-      <h2 class="headline2">過去の所属・役職</h2>
+      <h2 class="headline2">{{ $t('biography.formerAffiliation.title') }}</h2>
       <ul>
-        <li>工大祭実行委員会 ネットワーク局</li>
-        <li>東京工業大学 情報理工学院 バスゼミスタッフ</li>
-        <li>静岡県立沼津東高等学校 海浜教室 助手 (2015-2018)</li>
-        <li>第67回香陵祭祭典委員長</li>
-        <li>ぬまづたぶろいど。編集長</li>
+        <li>{{ $t('biography.formerAffiliation.list[0]') }}</li>
+        <li>{{ $t('biography.formerAffiliation.list[1]') }}</li>
+        <li>{{ $t('biography.formerAffiliation.list[2]') }}</li>
+        <li>{{ $t('biography.formerAffiliation.list[3]') }}</li>
+        <li>{{ $t('biography.formerAffiliation.list[4]') }}</li>
       </ul>
-      <h2 class="headline2">受賞・参加</h2>
+      <h2 class="headline2">{{ $t('biography.awards.title') }}</h2>
       <ul>
-        <li>IT特別教育プログラム(情報理工学院) グローバルシステム開発研修 参加 (2020)</li>
-        <li>システム構築演習(情報工学系科目) Webプログラミング成果発表会 チーム「システム構築演習完全に理解した」 最優秀賞 (2020)</li>
-        <li>enPiT AiBiC東日本 夏合宿 チーム「C#++」 マホロバマインズ賞／enPiT AiBiC賞／NSSOL賞 (2019)</li>
+        <li>{{ $t('biography.awards.list[0]') }}</li>
+        <li>{{ $t('biography.awards.list[1]') }}</li>
+        <li>{{ $t('biography.awards.list[2]') }}</li>
       </ul>
     </div>
   </div>
@@ -50,7 +56,7 @@ export default {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC'), url('~assets/img/headline_bg/biography.jpg');
 }
 
-.historyList {
+.historyList, .historyList-en {
   display: flex;
   flex-wrap: wrap;
 }
@@ -59,5 +65,11 @@ export default {
 }
 .historyList > dd {
   width: calc(100% - 5em);
+}
+.historyList-en > dt {
+  width: 12em;
+}
+.historyList-en > dd {
+  width: calc(100% - 12em);
 }
 </style>
