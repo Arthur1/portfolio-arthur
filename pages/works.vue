@@ -193,7 +193,7 @@ export default {
             width: 1920,
             height: 937
           },
-          devs: ['js', 'vuejs']
+          devs: ['js', 'nuxtjs', 'bootstrap']
         }
       ]
     }
