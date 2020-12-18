@@ -59,10 +59,6 @@
       "title": "Supporting Examinees Website by JIZI",
       "description": "The website that provides information for examinees has launched. I was responsible for design, front-end and back-end. I didn't use JavaScript for implementing UI."
     },
-    "shirenIdentifier": {
-      "title": "Shiren Identifier",
-      "description": "This is an app that supports to identify items in the video game \"Shiren the Wanderer\"."
-    },
     "titechAppProject": {
       "title": "Titech App Project Website",
       "description": "It is a website of the circle which develops apps for Tokyo Tech students. I was responsible for the front-end development."
@@ -102,6 +98,10 @@
     "agriCompanion": {
       "title": "AgriCompanion",
       "description": "It is the 2nd work as Stay Home Project. I developed a web application for playing the board game \"Agricola\" online. You can draft and manage your cards with the app."
+    },
+    "shirenInpasu": {
+      "title": "Shiren Inpasu",
+      "description": "\"Shiren Inpasu\" is a web app to identify items for the Rogue-like game series \"Shiren the Wanderer\". It was developed based on \"Shiren Identifier\", which I made in 2018."
     }
   },
   "research": {

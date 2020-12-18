@@ -63,10 +63,6 @@
       "title": "工大祭実行委員会受験生応援サイト",
       "description": "受験生向けの情報を掲載するサイトを新規開設。デザイン、フロントエンド、バックエンドを担当。JavaScriptを使用せずにフロントの実装をした。"
     },
-    "shirenIdentifier": {
-      "title": "Shiren Identifier",
-      "description": "スーパーファミコンのソフト「風来のシレン」の識別支援ツール。開発のすべてを担当。"
-    },
     "titechAppProject": {
       "title": "Titech App Project Webサイト",
       "description": "東工大生向けのアプリ・ツールを開発するサークルのWebサイト。フロントエンドを担当。"
@@ -106,6 +102,10 @@
     "agriCompanion": {
       "title": "AgriCompanion",
       "description": "Stay Homeプロジェクト第二弾。ボードゲーム「アグリコラ」をオンラインで遊ぶ際に、手札のドラフトや管理が行えるWebアプリケーションを開発した。WebSocketを利用してリアルタイムに更新される。"
+    },
+    "shirenInpasu": {
+      "title": "Shiren Inpasu",
+      "description": "ローグライクゲームの「風来のシレン」シリーズの識別支援ツール。2018年に作ったShiren IdentifierがベースのPWA。"
     }
   },
   "research": {

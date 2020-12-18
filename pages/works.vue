@@ -64,18 +64,6 @@ export default {
           devs: ['php', 'fuelphp', 'mysql']
         },
         {
-          id: 'shirenIdentifier',
-          year: 2018,
-          url: null,
-          github: 'https://github.com/Arthur1/shiren-identifier/',
-          img: {
-            src: require('@/assets/img/works/shiren.png'),
-            width: 1280,
-            height: 699
-          },
-          devs: ['js', 'vuejs']
-        },
-        {
           id: 'titechAppProject',
           year: 2018,
           url: 'https://titech.app/',
@@ -194,6 +182,18 @@ export default {
             height: 737
           },
           devs: ['php', 'laravel', 'js', 'vuejs', 'bootstrap', 'mysql', 'redis']
+        },
+        {
+          id: 'shirenInpasu',
+          year: 2020,
+          url: 'https://inpasu.buratsuki.page/',
+          github: 'https://github.com/Arthur1/shiren-inpasu/',
+          img: {
+            src: require('@/assets/img/works/shiren_inpasu.png'),
+            width: 1920,
+            height: 937
+          },
+          devs: ['js', 'vuejs']
         }
       ]
     }
