@@ -101,7 +101,19 @@
     },
     "shirenInpasu": {
       "title": "Shiren Inpasu",
-      "description": "\"Shiren Inpasu\" is a web app to identify items for the Rogue-like game series \"Shiren the Wanderer\". It was developed based on \"Shiren Identifier\", which I made in 2018."
+      "description": "\"Shiren Inpasu\" is a web app to identify items for the Rogue-like game series \"Shiren the Wanderer\". It was developed based on \"Shiren Identifier\", that I made in 2018."
+    },
+    "agricolaDatabaseViewer": {
+      "title": "Agricola DB (Viewer)",
+      "description": "Using the API server as above, I made the database viewer website that is constructed as JAMStack."
+    },
+    "agricolaDatabaseApi": {
+      "title": "Agricola DB (API)",
+      "description": "For unifying databases used for various services of \"Agricola\", I created an API server."
+    },
+    "agentsVisualizer": {
+      "title": "OOP Agents Visualizer",
+      "description": "I made OOP Agents Visualizer to debug the program for the final exercise of CSC.T273 Object-Oriented Programming, a course in Tokyo Tech."
     }
   },
   "research": {

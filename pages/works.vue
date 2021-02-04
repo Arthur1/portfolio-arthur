@@ -194,6 +194,41 @@ export default {
             height: 937
           },
           devs: ['js', 'nuxtjs', 'bootstrap']
+        },
+        {
+          id: 'agricolaDatabaseViewer',
+          year: 2021,
+          url: 'https://db.buratsuki.page/',
+          github: 'https://github.com/Arthur1/agricola-database-viewer/',
+          img: {
+            src: require('@/assets/img/works/agricola_database_viewer.png'),
+            width: 2512,
+            height: 1592,
+          },
+          devs: ['js', 'nuxtjs', 'bootstrap']
+        },
+        {
+          id: 'agricolaDatabaseApi',
+          year: 2021,
+          github: 'https://github.com/Arthur1/agricola-database/',
+          img: {
+            src: require('@/assets/img/works/agricola_database_api.png'),
+            width: 2512,
+            height: 1592,
+          },
+          devs: ['php', 'laravel', 'mysql', 'docker']
+        },
+        {
+          id: 'agentsVisualizer',
+          year: 2021,
+          url: 'https://arthur1.github.io/agents-visualizer/',
+          github: 'https://github.com/Arthur1/agents-visualizer/',
+          img: {
+            src: require('@/assets/img/works/agents_visualizer.png'),
+            width: 2512,
+            height: 1592,
+          },
+          devs: ['js', 'vuejs', 'bootstrap']
         }
       ]
     }

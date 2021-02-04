@@ -13,12 +13,12 @@
         <skill-element name="C" level="good" />
         <skill-element name="PHP" level="good" />
         <skill-element name="JavaScript (ES2015)" level="good" />
+        <skill-element name="Python3" level="good" />
+        <skill-element name="Java" level="good" />
         <skill-element name="HTML5, CSS3" level="good" />
         <skill-element name="SQL" level="good" />
         <skill-element name="Scala" level="soso" />
         <skill-element name="Perl5" level="soso" />
-        <skill-element name="Python3" level="soso" />
-        <skill-element name="Java" level="soso" />
         <skill-element name="Scheme" level="soso" />
         <skill-element name="x86-64 Assembly Language" level="soso" />
         <skill-element name="MATLAB" level="soso" />

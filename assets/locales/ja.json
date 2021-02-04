@@ -106,6 +106,18 @@
     "shirenInpasu": {
       "title": "Shiren Inpasu",
       "description": "ローグライクゲームの「風来のシレン」シリーズの識別支援ツール。2018年に作ったShiren IdentifierがベースのPWA。"
+    },
+    "agricolaDatabaseViewer": {
+      "title": "Agricola DB (Viewer)",
+      "description": "前述のAPIサーバを使用してJAMStack構成のWebサイトを制作した。膨大なカード情報の閲覧や検索がスムーズにできる。"
+    },
+    "agricolaDatabaseApi": {
+      "title": "Agricola DB (API)",
+      "description": "アグリコラに関する各種サービスに使用するデータベースを統一するためにAPIサーバを制作した。"
+    },
+    "agentsVisualizer": {
+      "title": "OOP Agents Visualizer",
+      "description": "CSC.T273 オブジェクト指向プログラミングの最終課題のデバッグのためにビジュアライザを作成した。"
     }
   },
   "research": {
