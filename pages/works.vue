@@ -9,239 +9,258 @@
   </div>
 </template>
 <script>
-import WorkElement from '@/components/WorkElement.vue'
+import WorkElement from "@/components/WorkElement.vue";
 export default {
   components: { WorkElement },
   head() {
     return {
-      title: 'Works',
+      title: "Works",
       meta: [
         {
-          hid: 'og:title',
-          property: 'og:title',
-          content: 'Works',
-        },
-      ],
-    }
+          hid: "og:title",
+          property: "og:title",
+          content: "Works"
+        }
+      ]
+    };
   },
   data() {
     return {
       works: [
         {
-          id: 'koudaisai2016',
+          id: "koudaisai2016",
           year: 2016,
-          url: 'https://2016.koudaisai.jp/',
+          url: "https://2016.koudaisai.jp/",
           github: null,
           img: {
-            src: require('@/assets/img/works/koudaisai2016.png'),
+            src: require("@/assets/img/works/koudaisai2016.png"),
             width: 1280,
             height: 681
           },
-          devs: ['php', 'fuelphp', 'js', 'mysql']
+          devs: ["php", "fuelphp", "js", "mysql"]
         },
         {
-          id: 'koudaisai2017',
+          id: "koudaisai2017",
           year: 2017,
-          url: 'https://2017.koudaisai.jp/',
+          url: "https://2017.koudaisai.jp/",
           github: null,
           img: {
-            src: require('@/assets/img/works/koudaisai2017.png'),
+            src: require("@/assets/img/works/koudaisai2017.png"),
             width: 1280,
             height: 678
           },
-          devs: ['php', 'fuelphp', 'js', 'mysql']
+          devs: ["php", "fuelphp", "js", "mysql"]
         },
         {
-          id: 'goukakuJizi',
+          id: "goukakuJizi",
           year: 2017,
-          url: 'https://goukaku.jizi.jp/',
+          url: "https://goukaku.jizi.jp/",
           github: null,
           img: {
-            src: require('@/assets/img/works/goukaku.png'),
+            src: require("@/assets/img/works/goukaku.png"),
             width: 1280,
             height: 702
           },
-          devs: ['php', 'fuelphp', 'mysql']
+          devs: ["php", "fuelphp", "mysql"]
         },
         {
-          id: 'titechAppProject',
+          id: "titechAppProject",
           year: 2018,
-          url: 'https://titech.app/',
+          url: "https://titech.app/",
           github: null,
           img: {
-            src: require('@/assets/img/works/titech_app_project.png'),
+            src: require("@/assets/img/works/titech_app_project.png"),
             width: 1280,
             height: 702
           },
-          devs: ['js', 'nuxtjs', 'gas', 'aws']
+          devs: ["js", "nuxtjs", "gas", "aws"]
         },
         {
-          id: 'buratsukiPortal',
+          id: "buratsukiPortal",
           year: 2018,
           url: null,
-          github: 'https://github.com/Arthur1/buratsuki-portal/',
+          github: "https://github.com/Arthur1/buratsuki-portal/",
           img: {
-            src: require('@/assets/img/works/buratsuki_portal.png'),
+            src: require("@/assets/img/works/buratsuki_portal.png"),
             width: 1280,
             height: 699
           },
-          devs: ['php', 'fuelphp', 'js', 'mysql', 'docker']
+          devs: ["php", "fuelphp", "js", "mysql", "docker"]
         },
         {
-          id: 'agricolaBook',
+          id: "agricolaBook",
           year: 2018,
           url: null,
           github: null,
           img: {
-            src: require('@/assets/img/works/agricola_book.png'),
+            src: require("@/assets/img/works/agricola_book.png"),
             width: 1184,
             height: 682
           },
-          devs: ['js', 'vuejs', 'bootstrap']
+          devs: ["js", "vuejs", "bootstrap"]
         },
         {
-          id: 'tokyoKoryo',
+          id: "tokyoKoryo",
           year: 2019,
-          url: 'https://tokyokoryo.org/',
+          url: "https://tokyokoryo.org/",
           github: null,
           img: {
-            src: require('@/assets/img/works/tokyo_koryo.png'),
+            src: require("@/assets/img/works/tokyo_koryo.png"),
             width: 1280,
             height: 737
           },
-          devs: ['php', 'wordpress', 'mysql']
+          devs: ["php", "wordpress", "mysql"]
         },
         {
-          id: 'internalSpace',
+          id: "internalSpace",
           year: 2019,
-          url: 'https://internal-space.com/',
+          url: "https://internal-space.com/",
           github: null,
           img: {
-            src: require('@/assets/img/works/internal_space.png'),
+            src: require("@/assets/img/works/internal_space.png"),
             width: 1280,
             height: 738
           },
-          devs: ['php', 'wordpress', 'mysql']
+          devs: ["php", "wordpress", "mysql"]
         },
         {
-          id: 'reborn',
+          id: "reborn",
           year: 2019,
-          url: 'https://internal-space.com/works/rebornvr/',
+          url: "https://internal-space.com/works/rebornvr/",
           github: null,
           img: {
-            src: require('@/assets/img/works/reborn.png'),
+            src: require("@/assets/img/works/reborn.png"),
             width: 962,
             height: 554
           },
-          devs: ['gas', 'ifttt', 'js']
+          devs: ["gas", "ifttt", "js"]
         },
         {
-          id: 'lifeGame',
+          id: "lifeGame",
           year: 2019,
-          url: 'https://arthur1.github.io/sf-lifegame/',
-          github: 'https://github.com/Arthur1/sf-lifegame/',
+          url: "https://arthur1.github.io/sf-lifegame/",
+          github: "https://github.com/Arthur1/sf-lifegame/",
           img: {
-            src: require('@/assets/img/works/lifegame.png'),
+            src: require("@/assets/img/works/lifegame.png"),
             width: 1280,
             height: 698
           },
-          devs: ['js', 'vuejs']
+          devs: ["js", "vuejs"]
         },
         {
-          id: 'gachiproOfSysimpl',
+          id: "gachiproOfSysimpl",
           year: 2020,
           url: null,
           github: null,
           img: {
-            src: require('@/assets/img/works/gachipro_of_sysimpl.png'),
+            src: require("@/assets/img/works/gachipro_of_sysimpl.png"),
             width: 1280,
             height: 738
           },
-          devs: ['scala', 'play', 'js', 'vuejs', 'bootstrap', 'python', 'mysql', 'docker']
+          devs: [
+            "scala",
+            "play",
+            "js",
+            "vuejs",
+            "bootstrap",
+            "python",
+            "mysql",
+            "docker"
+          ]
         },
         {
-          id: 'nationalEconomy',
+          id: "nationalEconomy",
           year: 2020,
-          url: 'https://neo.buratsuki.page/',
-          github: 'https://github.com/Arthur1/national-economy2/',
+          url: "https://neo.buratsuki.page/",
+          github: "https://github.com/Arthur1/national-economy2/",
           img: {
-            src: require('@/assets/img/works/national_economy.png'),
+            src: require("@/assets/img/works/national_economy.png"),
             width: 1280,
             height: 737
           },
-          devs: ['php', 'laravel', 'js', 'vuejs', 'bootstrap', 'mysql', 'redis', 'docker']
+          devs: [
+            "php",
+            "laravel",
+            "js",
+            "vuejs",
+            "bootstrap",
+            "mysql",
+            "redis",
+            "docker"
+          ]
         },
         {
-          id: 'agriCompanion',
+          id: "agriCompanion",
           year: 2020,
           url: null,
-          github: 'https://github.com/Arthur1/agricola-companion/',
+          github: "https://github.com/Arthur1/agricola-companion/",
           img: {
-            src: require('@/assets/img/works/agricompanion.jpg'),
+            src: require("@/assets/img/works/agricompanion.jpg"),
             width: 1280,
             height: 737
           },
-          devs: ['php', 'laravel', 'js', 'vuejs', 'bootstrap', 'mysql', 'redis']
+          devs: ["php", "laravel", "js", "vuejs", "bootstrap", "mysql", "redis"]
         },
         {
-          id: 'shirenInpasu',
+          id: "shirenInpasu",
           year: 2020,
-          url: 'https://inpasu.buratsuki.page/',
-          github: 'https://github.com/Arthur1/shiren-inpasu/',
+          url: "https://inpasu.buratsuki.page/",
+          github: "https://github.com/Arthur1/shiren-inpasu/",
           img: {
-            src: require('@/assets/img/works/shiren_inpasu.png'),
+            src: require("@/assets/img/works/shiren_inpasu.png"),
             width: 1920,
             height: 937
           },
-          devs: ['js', 'nuxtjs', 'bootstrap']
+          devs: ["js", "nuxtjs", "bootstrap"]
         },
         {
-          id: 'agricolaDatabaseViewer',
+          id: "agricolaDatabaseViewer",
           year: 2021,
-          url: 'https://db.buratsuki.page/',
-          github: 'https://github.com/Arthur1/agricola-database-viewer/',
+          url: "https://db.buratsuki.page/",
+          github: "https://github.com/Arthur1/agricola-database-frontend/",
           img: {
-            src: require('@/assets/img/works/agricola_database_viewer.png'),
+            src: require("@/assets/img/works/agricola_database_viewer.png"),
             width: 2512,
-            height: 1592,
+            height: 1592
           },
-          devs: ['js', 'nuxtjs', 'bootstrap']
+          devs: ["js", "nuxtjs", "bootstrap"]
         },
         {
-          id: 'agricolaDatabaseApi',
+          id: "agricolaDatabaseApi",
           year: 2021,
-          github: 'https://github.com/Arthur1/agricola-database/',
+          github: "https://github.com/Arthur1/agricola-database-server/",
           img: {
-            src: require('@/assets/img/works/agricola_database_api.png'),
+            src: require("@/assets/img/works/agricola_database_api.png"),
             width: 2512,
-            height: 1592,
+            height: 1592
           },
-          devs: ['php', 'laravel', 'mysql', 'docker']
+          devs: ["php", "laravel", "mysql", "docker"]
         },
         {
-          id: 'agentsVisualizer',
+          id: "agentsVisualizer",
           year: 2021,
-          url: 'https://arthur1.github.io/agents-visualizer/',
-          github: 'https://github.com/Arthur1/agents-visualizer/',
+          url: "https://arthur1.github.io/agents-visualizer/",
+          github: "https://github.com/Arthur1/agents-visualizer/",
           img: {
-            src: require('@/assets/img/works/agents_visualizer.png'),
+            src: require("@/assets/img/works/agents_visualizer.png"),
             width: 2512,
-            height: 1592,
+            height: 1592
           },
-          devs: ['js', 'vuejs', 'bootstrap']
+          devs: ["js", "vuejs", "bootstrap"]
         }
       ]
-    }
+    };
   },
   computed: {
     reversedWorks() {
-      return this.works.reverse()
+      return this.works.reverse();
     }
   }
-}
+};
 </script>
 <style scoped lang="scss">
 .headlineBox {
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC'), url('~assets/img/headline_bg/research.jpg');
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC"),
+    url("~assets/img/headline_bg/research.jpg");
 }
 </style>

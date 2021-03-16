@@ -5,8 +5,10 @@
     </div>
     <div class="container">
       <p>
-        <font-awesome-icon class="icon icon-good" :icon="['fas', 'smile']" />: Familier<br>
-        <font-awesome-icon class="icon icon-soso" :icon="['fas', 'meh']" />: Beginner
+        <font-awesome-icon class="icon icon-good" :icon="['fas', 'smile']" />:
+        Familier<br />
+        <font-awesome-icon class="icon icon-soso" :icon="['fas', 'meh']" />:
+        Beginner
       </p>
       <h2 class="headline2">Programming Languages</h2>
       <ul class="skillList">
@@ -17,6 +19,7 @@
         <skill-element name="Java" level="good" />
         <skill-element name="HTML5, CSS3" level="good" />
         <skill-element name="SQL" level="good" />
+        <skill-element name="TypeScript" level="soso" />
         <skill-element name="Scala" level="soso" />
         <skill-element name="Perl5" level="soso" />
         <skill-element name="Scheme" level="soso" />
@@ -51,6 +54,15 @@
         <skill-element name="Docker" level="soso" />
         <skill-element name="Vagrant" level="soso" />
       </ul>
+      <h2 class="headline2">Cloud Services</h2>
+      <ul class="skillList">
+        <skill-element name="Amazon Web Services" level="soso" />
+        <ul class="skillList">
+          <skill-element name="Amazon S3" level="soso" />
+          <skill-element name="Amazon SQS" level="soso" />
+          <skill-element name="AWS Lambda" level="soso" />
+        </ul>
+      </ul>
       <h2 class="headline2">Continuous Integrations</h2>
       <ul class="skillList">
         <skill-element name="CircleCI" level="soso" />
@@ -72,27 +84,28 @@
   </div>
 </template>
 <script>
-import SkillElement from '@/components/SkillElement.vue'
+import SkillElement from "@/components/SkillElement.vue";
 export default {
   components: { SkillElement },
   head() {
     return {
-      title: 'Skills',
+      title: "Skills",
       meta: [
         {
-          hid: 'og:title',
-          property: 'og:title',
-          content: 'Skills',
-        },
-      ],
-    }
+          hid: "og:title",
+          property: "og:title",
+          content: "Skills"
+        }
+      ]
+    };
   }
-}
+};
 </script>
 <style scoped lang="scss">
-@import '@/assets/scss/variables.scss';
+@import "@/assets/scss/variables.scss";
 .headlineBox {
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC'), url('~assets/img/headline_bg/skills.jpg');
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC"),
+    url("~assets/img/headline_bg/skills.jpg");
 }
 
 .skillList {
